@@ -302,7 +302,7 @@ if (total_score>99) Comments=Comments + "People are happy in your City. \n";
 			total_score+=fields[x][y][5]/10;
 			console.log(fields[x][y][5]);
 			if (fields[x][y][5]>95) document.getElementById("feedback" + x + y).innerHTML="<img src=\"img/happy.png\" class=\"size feedback_img\" title=\""+ fields[x][y][5] +"\">";
-			else {if (fields[x][y][5]>75) document.getElementById("feedback" + x + y).innerHTML="<img src=\"img/OK.png\" class=\"size feedback_img\" title=\""+ fields[x][y][5] +"\">";
+			else {if (fields[x][y][5]>75) document.getElementById("feedback" + x + y).innerHTML="<img src=\"img/ok.png\" class=\"size feedback_img\" title=\""+ fields[x][y][5] +"\">";
 			else document.getElementById("feedback" + x + y).innerHTML="<img src=\"img/sad.png\" class=\"size feedback_img\" title=\""+ fields[x][y][5] +"\">";
 			}
 			if (fields[x][y][0]==0) document.getElementById("feedback" + x + y).innerHTML="<img src=\"img/empty.png\" class=\"size feedback_img\">";
